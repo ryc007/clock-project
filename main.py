@@ -5,7 +5,6 @@ from ChoosingActivityMode import *
 from Schedule import *
 from ChoosingTime import *
 from GlobalVariables import *
-#OH GOD, WE NEED TO MAKE THIS SEPARATED INTO CLASSES
 
 #This is a string that will signify the 'MODE' the screen will show
 s = "clock"
@@ -14,7 +13,7 @@ s = "clock"
 
 wn=turtle.Screen()
 wn.bgcolor("#99cccc")
-wn.setup(width = 320, height = 240)
+wn.setup(width = 400, height = 320)
 wn.title("Team 22's clock!")
 wn.tracer(0)
 
@@ -40,7 +39,7 @@ def clickTest(x,y):
 
 
 #_______________________
-#-----This will be the schedule screen stuff uwuwuwuwu
+#-----This will be the schedule screen stuff
 #________________________________________________________
 
 
