@@ -65,7 +65,7 @@ class AnalogClock:
         self.pen.goto(0, 0)
         self.pen.color("#f5acae")
         self.pen.setheading(90)
-        angle = (self.minute / 60) * 360
+        angle = (self.minute / 60) * 360 + self.second/10
         self.pen.rt(angle)
         self.pen.pensize(3)
         self.pen.pendown()
@@ -94,6 +94,7 @@ class AnalogClock:
         time_h_m = ht + ':' + mt
         time_s_d = dt
         self.pen.penup()
+        self.pen.color("#ffffff")
         self.pen.goto(0,20)
         self.pen.write(time_h_m,font=self.style, align = 'center')
         self.pen.goto(0,10)
