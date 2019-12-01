@@ -13,3 +13,6 @@ Manually, the Pi can be set if you know the real time. Open the command prompt, 
 sudo date -s "Fri Nov 29 13:45:00 PST 2019"
 
 Remember to change the text so that the day of week, month/day, time, time zone, and year are correct!
+
+
+Credit to Jason Sather and Aksharan Saravanan for writing the code, Ryan Chen for final proofreading and uploading.
