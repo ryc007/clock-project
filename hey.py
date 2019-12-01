@@ -5,7 +5,6 @@ from ChoosingActivityMode import *
 from Schedule import *
 from ChoosingTime import *
 from GlobalVariables import *
-#OH GOD, WE NEED TO MAKE THIS SEPARATED INTO CLASSES
 
 #This is a string that will signify the 'MODE' the screen will show
 s = "clock"
