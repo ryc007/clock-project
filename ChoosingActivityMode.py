@@ -1,4 +1,3 @@
-
 from CoolComponents import *
 from GlobalVariables import *
 class ChoosingActivity:
@@ -12,7 +11,7 @@ class ChoosingActivity:
 
 
     def draw_Scedule_Screen(self):
-        self.wn.bgcolor("#594a4e")
+        self.wn.bgcolor("#59cde2")
         self.coolComponent.alterPen(6, "Blue")
         self.coolComponent.createButton(-130, 90, 60, 30, "What would you like to do?", 12)
         self.coolComponent.createButton(-130, 50, 60, 30, "Sleep", 12)
