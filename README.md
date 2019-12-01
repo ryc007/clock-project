@@ -1,6 +1,6 @@
 # clock-project
 
-Open main.py in a Python environment and hit run. Simple!
+Download all of these files (maybe not README if you don't want it). Then open main.py in a Python environment and hit run. Simple!
 
 Setting time without WiFi:
 
